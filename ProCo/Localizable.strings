@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  ProCo
+
+  Created by Anastasia on 9/9/24.
+  
+*/
+
+"todaysGoal" = "Today's goal";
+"saved" = "Saved presets";
+"setGoal" = "Set goal";
+"newInput" = "New input";
+"newPreset" = "New preset";
+"save" = "Save";
+"cancel" = "Cancel";
+"grams" = "grams";
+"perDay" = "per day";
+"name" = "Name";
+"delete" = "Delete";
+
