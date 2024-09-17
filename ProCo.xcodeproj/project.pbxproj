@@ -10,6 +10,14 @@
 		5D0EADF22C8F667B00B72264 /* ProCoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0EADF12C8F667B00B72264 /* ProCoButton.swift */; };
 		5D0EADF82C8F6A8700B72264 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D0EADF72C8F6A8700B72264 /* Localizable.strings */; };
 		5D0EADFA2C8F6CEB00B72264 /* ProCoTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0EADF92C8F6CEB00B72264 /* ProCoTextButton.swift */; };
+		5D0EADFC2C982A6A00B72264 /* GoalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0EADFB2C982A6A00B72264 /* GoalRepository.swift */; };
+		5D1A3C6A2C99785C004D7590 /* LiveInputRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A3C692C99785C004D7590 /* LiveInputRepository.swift */; };
+		5D1A3C6C2C997887004D7590 /* InputRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A3C6B2C997887004D7590 /* InputRepository.swift */; };
+		5D1A3C6E2C9978F6004D7590 /* InputEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A3C6D2C9978F6004D7590 /* InputEntity.swift */; };
+		5D1A3C702C997A4D004D7590 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A3C6F2C997A4D004D7590 /* Input.swift */; };
+		5D1A3C722C998549004D7590 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A3C712C998549004D7590 /* DateFormatter.swift */; };
+		5D1A3C742C9990F5004D7590 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A3C732C9990F5004D7590 /* DataManager.swift */; };
+		5D1A3C762C99B0B1004D7590 /* ProCoButtonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A3C752C99B0B1004D7590 /* ProCoButtonNav.swift */; };
 		5D84ED522C08801C00B681C7 /* ProCoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84ED512C08801C00B681C7 /* ProCoApp.swift */; };
 		5D84ED542C08801C00B681C7 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84ED532C08801C00B681C7 /* DashboardView.swift */; };
 		5D84ED562C08801D00B681C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D84ED552C08801D00B681C7 /* Assets.xcassets */; };
@@ -21,7 +29,7 @@
 		5D84ED6A2C1AFBDF00B681C7 /* ProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84ED692C1AFBDF00B681C7 /* ProgressViewStyle.swift */; };
 		5D84ED6F2C1B060700B681C7 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84ED6E2C1B060700B681C7 /* DashboardViewModel.swift */; };
 		5D84ED712C1B0AAB00B681C7 /* GoalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84ED702C1B0AAB00B681C7 /* GoalData.swift */; };
-		5D84ED732C1B497E00B681C7 /* GoalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84ED722C1B497E00B681C7 /* GoalRepository.swift */; };
+		5D84ED732C1B497E00B681C7 /* LiveGoalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84ED722C1B497E00B681C7 /* LiveGoalRepository.swift */; };
 		5D84ED772C1C3CD900B681C7 /* GoalDataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84ED762C1C3CD900B681C7 /* GoalDataEntity.swift */; };
 		5D84ED7A2C1C3DA700B681C7 /* Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84ED792C1C3DA700B681C7 /* Mappers.swift */; };
 		5D84ED7C2C1C5E3400B681C7 /* AddDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84ED7B2C1C5E3400B681C7 /* AddDataView.swift */; };
@@ -33,6 +41,14 @@
 		5D0EADF12C8F667B00B72264 /* ProCoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCoButton.swift; sourceTree = "<group>"; };
 		5D0EADF72C8F6A8700B72264 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		5D0EADF92C8F6CEB00B72264 /* ProCoTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCoTextButton.swift; sourceTree = "<group>"; };
+		5D0EADFB2C982A6A00B72264 /* GoalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalRepository.swift; sourceTree = "<group>"; };
+		5D1A3C692C99785C004D7590 /* LiveInputRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveInputRepository.swift; sourceTree = "<group>"; };
+		5D1A3C6B2C997887004D7590 /* InputRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputRepository.swift; sourceTree = "<group>"; };
+		5D1A3C6D2C9978F6004D7590 /* InputEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputEntity.swift; sourceTree = "<group>"; };
+		5D1A3C6F2C997A4D004D7590 /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		5D1A3C712C998549004D7590 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		5D1A3C732C9990F5004D7590 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		5D1A3C752C99B0B1004D7590 /* ProCoButtonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCoButtonNav.swift; sourceTree = "<group>"; };
 		5D84ED4E2C08801C00B681C7 /* ProCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D84ED512C08801C00B681C7 /* ProCoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCoApp.swift; sourceTree = "<group>"; };
 		5D84ED532C08801C00B681C7 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
@@ -45,7 +61,7 @@
 		5D84ED692C1AFBDF00B681C7 /* ProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewStyle.swift; sourceTree = "<group>"; };
 		5D84ED6E2C1B060700B681C7 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 		5D84ED702C1B0AAB00B681C7 /* GoalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalData.swift; sourceTree = "<group>"; };
-		5D84ED722C1B497E00B681C7 /* GoalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalRepository.swift; sourceTree = "<group>"; };
+		5D84ED722C1B497E00B681C7 /* LiveGoalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveGoalRepository.swift; sourceTree = "<group>"; };
 		5D84ED762C1C3CD900B681C7 /* GoalDataEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDataEntity.swift; sourceTree = "<group>"; };
 		5D84ED792C1C3DA700B681C7 /* Mappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mappers.swift; sourceTree = "<group>"; };
 		5D84ED7B2C1C5E3400B681C7 /* AddDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDataView.swift; sourceTree = "<group>"; };
@@ -113,6 +129,7 @@
 				5D84ED692C1AFBDF00B681C7 /* ProgressViewStyle.swift */,
 				5D0EADF12C8F667B00B72264 /* ProCoButton.swift */,
 				5D0EADF92C8F6CEB00B72264 /* ProCoTextButton.swift */,
+				5D1A3C752C99B0B1004D7590 /* ProCoButtonNav.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -121,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				5D84ED652C1AF8AE00B681C7 /* Extensions.swift */,
+				5D1A3C712C998549004D7590 /* DateFormatter.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -129,8 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				5D84ED532C08801C00B681C7 /* DashboardView.swift */,
-				5D84ED612C1AF59800B681C7 /* components */,
 				5D84ED7B2C1C5E3400B681C7 /* AddDataView.swift */,
+				5D84ED612C1AF59800B681C7 /* components */,
 				5D84ED7D2C1C5EFF00B681C7 /* ScreenType.swift */,
 			);
 			path = ui;
@@ -141,6 +159,7 @@
 			children = (
 				5D84ED782C1C3D9200B681C7 /* repository */,
 				5D84ED742C1B498800B681C7 /* model */,
+				5D1A3C732C9990F5004D7590 /* DataManager.swift */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -158,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				5D84ED702C1B0AAB00B681C7 /* GoalData.swift */,
+				5D1A3C6F2C997A4D004D7590 /* Input.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -166,6 +186,9 @@
 			isa = PBXGroup;
 			children = (
 				5D84ED762C1C3CD900B681C7 /* GoalDataEntity.swift */,
+				5D0EADFB2C982A6A00B72264 /* GoalRepository.swift */,
+				5D1A3C6B2C997887004D7590 /* InputRepository.swift */,
+				5D1A3C6D2C9978F6004D7590 /* InputEntity.swift */,
 			);
 			path = domain;
 			sourceTree = "<group>";
@@ -173,8 +196,9 @@
 		5D84ED782C1C3D9200B681C7 /* repository */ = {
 			isa = PBXGroup;
 			children = (
-				5D84ED722C1B497E00B681C7 /* GoalRepository.swift */,
+				5D84ED722C1B497E00B681C7 /* LiveGoalRepository.swift */,
 				5D84ED792C1C3DA700B681C7 /* Mappers.swift */,
+				5D1A3C692C99785C004D7590 /* LiveInputRepository.swift */,
 			);
 			path = repository;
 			sourceTree = "<group>";
@@ -250,18 +274,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D1A3C6C2C997887004D7590 /* InputRepository.swift in Sources */,
+				5D1A3C742C9990F5004D7590 /* DataManager.swift in Sources */,
 				5D84ED662C1AF8AE00B681C7 /* Extensions.swift in Sources */,
+				5D1A3C6E2C9978F6004D7590 /* InputEntity.swift in Sources */,
 				5D84ED542C08801C00B681C7 /* DashboardView.swift in Sources */,
 				5D84ED772C1C3CD900B681C7 /* GoalDataEntity.swift in Sources */,
 				5D84ED802C1C620C00B681C7 /* AddViewModel.swift in Sources */,
+				5D0EADFC2C982A6A00B72264 /* GoalRepository.swift in Sources */,
+				5D1A3C722C998549004D7590 /* DateFormatter.swift in Sources */,
 				5D84ED6A2C1AFBDF00B681C7 /* ProgressViewStyle.swift in Sources */,
 				5D84ED712C1B0AAB00B681C7 /* GoalData.swift in Sources */,
 				5D0EADFA2C8F6CEB00B72264 /* ProCoTextButton.swift in Sources */,
 				5D84ED632C1AF5B500B681C7 /* ProgressBarView.swift in Sources */,
 				5D84ED7C2C1C5E3400B681C7 /* AddDataView.swift in Sources */,
 				5D84ED682C1AF8FC00B681C7 /* PurpleGradient.swift in Sources */,
-				5D84ED732C1B497E00B681C7 /* GoalRepository.swift in Sources */,
+				5D1A3C6A2C99785C004D7590 /* LiveInputRepository.swift in Sources */,
+				5D1A3C702C997A4D004D7590 /* Input.swift in Sources */,
+				5D84ED732C1B497E00B681C7 /* LiveGoalRepository.swift in Sources */,
 				5D84ED7A2C1C3DA700B681C7 /* Mappers.swift in Sources */,
+				5D1A3C762C99B0B1004D7590 /* ProCoButtonNav.swift in Sources */,
 				5D0EADF22C8F667B00B72264 /* ProCoButton.swift in Sources */,
 				5D84ED522C08801C00B681C7 /* ProCoApp.swift in Sources */,
 				5D84ED602C1AF2F600B681C7 /* ScaffoldView.swift in Sources */,

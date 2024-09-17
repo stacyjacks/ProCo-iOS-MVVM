@@ -11,14 +11,15 @@ struct ProgressBarView: View {
     let goal: Float
     let current: Float
     let goalText: String
-    let onClick: () -> Void
     
     var body: some View {
         VStack {
             HStack {
                 Text("0")
                 ProgressView(value: current, total: goal)
-                    .progressViewStyle(ProgressBarViewStyle())
+                    .progressViewStyle(
+                        ProgressBarViewStyle(current: Int(current))
+                    )
                 Text(String(Int(goal.rounded(.down))))
             }
             Text(goalText)
@@ -35,8 +36,7 @@ struct ProgressBarView: View {
         ProgressBarView(
             goal: 80.0,
             current: 30,
-            goalText: "You're off to a good start!",
-            onClick: {}
+            goalText: "You're off to a good start!"
         )
     }
     .padding(.M)

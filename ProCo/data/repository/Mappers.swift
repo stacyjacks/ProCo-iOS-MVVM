@@ -24,3 +24,23 @@ extension GoalDataEntity {
         )
     }
 }
+
+extension Input {
+    func inputToEntity() -> InputEntity {
+        return InputEntity(
+            id: id,
+            input: input,
+            time: time
+        )
+    }
+}
+
+extension InputEntity {
+    func inputEntityToModel() -> Input {
+        return Input(
+            id: id,
+            input: input,
+            time: time
+        )
+    }
+}

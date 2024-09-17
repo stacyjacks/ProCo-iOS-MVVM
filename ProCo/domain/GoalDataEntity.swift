@@ -7,12 +7,7 @@
 
 import Foundation
 
-class GoalDataEntity {
+struct GoalDataEntity: Equatable, Hashable {
     var goal: Float
     var current: Float
-    
-    init(goal: Float = 0.0, current: Float = 0.0) {
-        self.goal = goal
-        self.current = current
-    }
 }

@@ -21,7 +21,7 @@ struct ProCoTextButton: View {
                     .bold()
             }
         )
-        .frame(width: width)
+        .frame(maxWidth: width)
         .foregroundColor(.darkPurple)
     }
 }

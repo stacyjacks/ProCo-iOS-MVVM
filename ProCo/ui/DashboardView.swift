@@ -11,18 +11,58 @@ struct DashboardView: View {
     @StateObject var viewModel: DashboardViewModel
     
     var body: some View {
-        ScaffoldView(title: "Today's goal", view: dashView)
+        NavigationStack {
+            ScaffoldView(title: "Today's goal", view: dashView)
+        }
     }
     
     var dashView: some View {
         VStack {
-            ProgressBarView(
-                goal: viewModel.goal,
-                current: viewModel.current,
-                goalText: "",
-                onClick: { /* to do */ }
-            )
+            NavigationLink {
+                AddDataView(
+                    screenType: ScreenType.AddGoal,
+                    viewModel: .init(),
+                    completion: viewModel.getGoalData
+                )
+            } label: {
+                ProgressBarView(
+                    goal: viewModel.goal,
+                    current: viewModel.current,
+                    goalText: ""
+                )
+            }
+            .frame(alignment: .top)
+            .foregroundColor(.black)
+            
+            HStack {
+                ForEach(viewModel.input, id: \.self) { entry in
+                    Text(String(entry.input))
+                }
+            }
+            .padding(.S)
+            
+            HStack {
+                NavigationLink {
+                    AddDataView(
+                        screenType: ScreenType.AddInput,
+                        viewModel: .init(), 
+                        completion: viewModel.getCurrentInput
+                    )
+                } label: {
+                    ProCoButtonNav(string: "plus")
+                }
+                .frame(maxHeight: .infinity, alignment: .bottom)
+                
+                ProCoButton(
+                    action: {
+                        viewModel.resetDailyData()
+                    },
+                    icon: "trash.fill"
+                )
+                .frame(maxHeight: .infinity, alignment: .bottom)
+            }
         }
+        .frame(maxHeight: .infinity, alignment: .topLeading)
         .padding(.M)
     }
 }
