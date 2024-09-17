@@ -49,7 +49,7 @@
 		5D1A3C712C998549004D7590 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		5D1A3C732C9990F5004D7590 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		5D1A3C752C99B0B1004D7590 /* ProCoButtonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCoButtonNav.swift; sourceTree = "<group>"; };
-		5D84ED4E2C08801C00B681C7 /* ProCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D84ED4E2C08801C00B681C7 /* ProCo-iOS-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProCo-iOS-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D84ED512C08801C00B681C7 /* ProCoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCoApp.swift; sourceTree = "<group>"; };
 		5D84ED532C08801C00B681C7 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		5D84ED552C08801D00B681C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		5D84ED4F2C08801C00B681C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D84ED4E2C08801C00B681C7 /* ProCo.app */,
+				5D84ED4E2C08801C00B681C7 /* ProCo-iOS-MVVM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,9 +206,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D84ED4D2C08801C00B681C7 /* ProCo */ = {
+		5D84ED4D2C08801C00B681C7 /* ProCo-iOS-MVVM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D84ED5C2C08801D00B681C7 /* Build configuration list for PBXNativeTarget "ProCo" */;
+			buildConfigurationList = 5D84ED5C2C08801D00B681C7 /* Build configuration list for PBXNativeTarget "ProCo-iOS-MVVM" */;
 			buildPhases = (
 				5D84ED4A2C08801C00B681C7 /* Sources */,
 				5D84ED4B2C08801C00B681C7 /* Frameworks */,
@@ -218,9 +218,9 @@
 			);
 			dependencies = (
 			);
-			name = ProCo;
+			name = "ProCo-iOS-MVVM";
 			productName = ProCo;
-			productReference = 5D84ED4E2C08801C00B681C7 /* ProCo.app */;
+			productReference = 5D84ED4E2C08801C00B681C7 /* ProCo-iOS-MVVM.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -238,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5D84ED492C08801C00B681C7 /* Build configuration list for PBXProject "ProCo" */;
+			buildConfigurationList = 5D84ED492C08801C00B681C7 /* Build configuration list for PBXProject "ProCo-iOS-MVVM" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -251,7 +251,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D84ED4D2C08801C00B681C7 /* ProCo */,
+				5D84ED4D2C08801C00B681C7 /* ProCo-iOS-MVVM */,
 			);
 		};
 /* End PBXProject section */
@@ -445,7 +445,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kurmakaeva.anastasia.ProCo;
+				PRODUCT_BUNDLE_IDENTIFIER = "kurmakaeva.anastasia.ProCo-iOS-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -474,7 +474,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kurmakaeva.anastasia.ProCo;
+				PRODUCT_BUNDLE_IDENTIFIER = "kurmakaeva.anastasia.ProCo-iOS-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -485,7 +485,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D84ED492C08801C00B681C7 /* Build configuration list for PBXProject "ProCo" */ = {
+		5D84ED492C08801C00B681C7 /* Build configuration list for PBXProject "ProCo-iOS-MVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D84ED5A2C08801D00B681C7 /* Debug */,
@@ -494,7 +494,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D84ED5C2C08801D00B681C7 /* Build configuration list for PBXNativeTarget "ProCo" */ = {
+		5D84ED5C2C08801D00B681C7 /* Build configuration list for PBXNativeTarget "ProCo-iOS-MVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D84ED5D2C08801D00B681C7 /* Debug */,
